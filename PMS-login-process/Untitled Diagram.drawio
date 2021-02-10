@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-10T05:47:03.538Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="ritfpCg_H38cG7fhuJPq" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-10T05:48:56.343Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="Zw9qm_E1LpTmvNY_v6CA" version="14.2.9" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1426" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -324,34 +324,34 @@
             <mxPoint x="790" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kOI4qabgPO7YnbYC6x7v-16" value="verifyIdToken(idToken)" style="endArrow=classic;html=1;exitX=0.1;exitY=0.411;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="kOI4qabgPO7YnbYC6x7v-11" target="kOI4qabgPO7YnbYC6x7v-9">
+        <mxCell id="kOI4qabgPO7YnbYC6x7v-16" value="verifyIdToken(idToken)" style="endArrow=classic;html=1;exitX=0.1;exitY=0.411;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="441.5" y="930" as="sourcePoint" />
-            <mxPoint x="800" y="930" as="targetPoint" />
+            <mxPoint x="793" y="935.0899999999999" as="sourcePoint" />
+            <mxPoint x="611.5" y="935.0899999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kOI4qabgPO7YnbYC6x7v-17" value="uid" style="endArrow=classic;html=1;exitX=1.15;exitY=0.463;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="613" y="949.97" as="sourcePoint" />
-            <mxPoint x="792" y="949.97" as="targetPoint" />
+            <mxPoint x="613" y="946.97" as="sourcePoint" />
+            <mxPoint x="792" y="946.97" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kOI4qabgPO7YnbYC6x7v-18" value="createCustomToken(uid)" style="endArrow=classic;html=1;exitX=0.1;exitY=0.563;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="793" y="962.97" as="sourcePoint" />
-            <mxPoint x="611.5" y="962.97" as="targetPoint" />
+            <mxPoint x="793" y="959.97" as="sourcePoint" />
+            <mxPoint x="611.5" y="959.97" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kOI4qabgPO7YnbYC6x7v-19" value="customToken" style="endArrow=classic;html=1;exitX=1.05;exitY=0.653;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="612" y="977.0699999999999" as="sourcePoint" />
-            <mxPoint x="792" y="977.0699999999999" as="targetPoint" />
+            <mxPoint x="612" y="974.0699999999999" as="sourcePoint" />
+            <mxPoint x="792" y="974.0699999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kOI4qabgPO7YnbYC6x7v-21" value="database.ref(uid).set(authToken)" style="endArrow=classic;html=1;exitX=0.49;exitY=0.67;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.85;entryY=0.684;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kOI4qabgPO7YnbYC6x7v-10" target="kOI4qabgPO7YnbYC6x7v-9">
+        <mxCell id="kOI4qabgPO7YnbYC6x7v-21" value="database.ref(uid).set(authToken)" style="endArrow=classic;html=1;exitX=0.49;exitY=0.67;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.85;entryY=0.684;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="803" y="972.97" as="sourcePoint" />
-            <mxPoint x="621.5" y="972.97" as="targetPoint" />
+            <mxPoint x="796" y="988" as="sourcePoint" />
+            <mxPoint x="610" y="986.96" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kOI4qabgPO7YnbYC6x7v-22" value="ref 계속 보고있다가, 바뀌면 authToken값을 받음" style="endArrow=classic;html=1;entryX=0.85;entryY=0.816;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1">
@@ -374,6 +374,12 @@
             <mxPoint x="605" y="1026.9" as="sourcePoint" />
             <mxPoint x="71" y="1027.95" as="targetPoint" />
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kOI4qabgPO7YnbYC6x7v-25" value="open-url (electron app 열기)" style="endArrow=classic;html=1;exitX=0.05;exitY=0.537;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.85;entryY=0.537;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="422" y="1039.03" as="sourcePoint" />
+            <mxPoint x="250" y="1039.03" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
